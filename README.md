@@ -39,4 +39,5 @@ Docker images are available on the [Docker](https://hub.docker.com/r/fredboat/la
 # Other Links
 
 > Shoukaku documentation: https://deivu.github.io/Shoukaku/?api
+
 > Shoukaku support: https://discord.gg/FVqbtGu
