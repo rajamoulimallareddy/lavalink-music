@@ -7,8 +7,7 @@ An open-source lavalink music bot built with [Shoukaku](https://github.com/Deivu
 
 # Features 
 
-> ✅ Stable
-
+> ✅ Stable <br>
 > ✅ Easy-to-use
 
 # Installation
@@ -38,6 +37,9 @@ Docker images are available on the [Docker](https://hub.docker.com/r/fredboat/la
 
 # Other Links
 
-> Shoukaku documentation: https://deivu.github.io/Shoukaku/?api
-
+> Shoukaku documentation: https://deivu.github.io/Shoukaku/?api <br>
 > Shoukaku support: https://discord.gg/FVqbtGu
+
+# Note
+
+Some parts of the code has been taken from [Kongou](https://github.com/Deivu/Kongou)
