@@ -4,7 +4,7 @@ const Logger = require("../modules/Logger");
 
 const CommandHandler = require("../handler/CommandHandler");
 const EventHandler = require("../handler/EventHandler");
-const PlayerHandler = require("../handler/PlayerHandler")
+const QueueHandler = require("../handler/QueueHandler")
 
 const Utils = require("../utils/Util");
 
@@ -21,7 +21,7 @@ module.exports = class MusicClient extends Client {
     this.aliases = new Collection();
     this.events = new Collection();
     
-    this.players = new PlayerHandler(this);
+    this.players = new QueueHandler(this);
 
     this.commandHandler = new CommandHandler(this);
     this.eventHandler = new EventHandler(this);

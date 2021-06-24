@@ -3,4 +3,7 @@ module.exports = {
   prefix: "*",
   supportServer: (code) => `https://discord.gg/${code}`,
   inviteURL: (id, permissions) => `https://discord.com/api/oauth2/authorize?client_id=${id}&permissions=${permissions ? permissions : '8'}&scope=bot`,
+  timers: {
+    concludeTimer: 20e3,
+  }
 }
